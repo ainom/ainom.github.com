@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2014-08-17 23:49:PM"
-title: "Hadoop_File_Append"
+title: "Hadoop 文件追加"
 description: "Hadoop 0.20之前的版本应该不支持文件追加功能，我用的是1.0版本的。要想使用文件追加写入功能，先配置hdfs-site.xml。"
 category: hadoop
 tags: [hadoop]
@@ -9,10 +9,10 @@ tags: [hadoop]
 {% include JB/setup %}
 
 Hadoop 0.20之前的版本应该不支持文件追加功能，我用的是1.0版本的。要想使用文件追加写入功能，先配置hdfs-site.xml,如下：
-</br>     <property>
-</br>        <name>dfs.support.append</name>
-</br>        <value>true</value>
-</br>     </property>
+</br>     \<property\>
+</br>        \<name\>dfs.support.append\</name\>
+</br>        \<value\>true\</value\>
+</br>     \</property\>
 </br>dfs.support.append默认是关闭的。
 </br>然后程序打开文件时用：
 </br>FileSystem fs = FileSystem.get(URI.create(dst), conf);
