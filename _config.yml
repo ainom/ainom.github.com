@@ -15,7 +15,7 @@ favicon: http://jekyllrb.com/favicon.png
 #Nav config
 nav:
   - text: 首页
-    url: /
+    url: /index.html
   - text: 分类目录 
     url: /categories.html
   - text: 文章归档

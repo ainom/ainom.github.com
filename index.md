@@ -15,12 +15,6 @@ tagline: 【Ai Natural Organic Matter】【爱码农-更爱天然有机物】
   {% endfor %}
 </ul>
 
-<div id="cz_display">
-{% assign posts_all = site.posts %}
-{% assign count = 10 %}
-{% include custom/posts_all %}
-<input type="hidden" id="cz_offset" value="10" />
-</div>
 
 
 
