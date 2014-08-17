@@ -9,13 +9,12 @@ tagline: 【Ai Natural Organic Matter】【爱码农-更爱天然有机物】
 </br>
 </br>
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-
+<div id="cz_display">
+{% assign posts_all = site.posts %}
+{% assign count = 10 %}
+{% include custom/posts_all %}
+<input type="hidden" id="cz_offset" value="10" />
+</div>
 
 
 
