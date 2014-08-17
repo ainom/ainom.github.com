@@ -29,7 +29,7 @@ nav:
 author:
     name: Ainom
     email: javamickey@163.com
-    imageLink: http://fortawesome.github.io/Font-Awesome/icon/apple/
+    imageLink: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
     simpleIntro: Ainom 爱码农，更爱生活！
     detailIntro:
       <p>Ainom，毕业于沙坡村皇家职业技术学院。小硕一枚。</p>
@@ -55,8 +55,10 @@ customLinks:
   - item:
     - text: Ainom
       url: http://www.ainom.com
-      text: Bonnshore
+    - text: Bonnshore
       url: http://www.bonnshore.com
+    - text: Spiderfan
+      url: http://www.spiderfan.cn
     message: Friends
   - item:
     - text: Font Awesome
