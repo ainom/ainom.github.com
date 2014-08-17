@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git Common Command"
-description: ""
+description: "Git 一些通用命令"
 category: Git
 tags: [Git]
 ---
